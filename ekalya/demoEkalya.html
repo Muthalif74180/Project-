@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Registration Confirmation Email</title>
+  <style>
+    
+    /* @import url('https://fonts.googleapis.com/css2?family=Mandali&family=Overpass&family=Poppins&family=Raleway&display=swap');
+    @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap);
+    @import url(https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;400;500;600&display=swap); */
+    @import url(https://fonts.googleapis.com/css2?family=Mandali&family=Overpass&family=Poppins:wght@200;400&family=Raleway&display=swap);
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #FFFFFF;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      place-content: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 500px;
+      background-color: #F5F8FA;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      background-color: #17D831;
+      color: #fff;
+      padding: 10px;
+      border-radius: 10px 10px 0 0;
+      text-align: center;
+
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    h2,h3{
+        padding: 3px;
+        margin: 0%;
+    }
+
+    .content {
+      padding: 5px;
+      text-align: center;
+      background-color: #F5F8FA;
+      /* padding: 30px; */
+      border-radius: 4px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .content p {
+      margin-bottom: 20px;
+      font-size: 18px;
+      line-height: 1.7;
+      color: #333;
+      margin: 0;
+    
+    }
+    .content p a{
+        color: #333;
+    }
+
+    button {
+      background-color: #17D831;
+      color: #fff;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      margin-bottom: 10px;
+    }
+
+    button:hover {
+      background-color: #14B126;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #777;
+    }
+
+    .social-icons {
+      text-align: center;
+      margin-top: 15px;
+      line-height: 1rem;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin: 0 10px;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+      color: #777;
+      font-family: 'Overpass', sans-serif;
+      font-size: 16px;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+    }
+
+    .social-icons i {
+      font-size: 24px;
+      color: #17D831;
+    }
+
+    .logo {
+      display: grid;
+      place-content: center;
+      padding: 10px;
+    }
+
+    .copy a {
+      font-family: 'Overpass', sans-serif;
+      color: #FFB000;
+    }
+
+    .copy a span {
+      font-family: 'Raleway', sans-serif;
+      color: black;
+    }
+
+    .img2 {
+      width: 150px;
+      height: 65px;
+      cursor: pointer;
+    }
+    .img3 {
+      width: 150px;
+      height: 50px;
+      cursor: pointer;
+    }
+    .logo2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+    label {
+            display: block;
+            margin-bottom: 4px;
+            font-size: 18px;
+            text-align: start;
+        }
+
+        input, select, textarea {
+            width: 35vh;
+            padding: 8px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form_container{
+                display: flex;
+                justify-content: space-around;
+                
+        }
+
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="ekalya logo.png" alt="">
+    </div>
+    <div class="header">
+      <h1>Welcome to ekalya</h1>
+    </div>
+    <div class="content">
+        <h2>Thank you for visit!</h2>
+        <h3>Request For Demo</h3>
+        <p>Dear User</p>
+        <p >Thank you for your interest in our product! To schedule a demo, please fill out the form below. 
+            Our team will get back to you as soon as possible to confirm the details.</p>
+            <form action="">
+            <div class="form_container">
+                <div class="sub">
+                <label for="name">First name:</label>
+                <input type="text" id="name" name="name" required>
+                </div>
+                <div class="sub">
+                <label for="email">Last name:</label>
+                <input type="text" id="email" name="email" required>
+                 </div>
+                 </div>
+                 <div class="form_container">
+                    <div class="sub">
+                <label for="address">Mobile number:</label>
+                <input id="phone" type="number" name="address" rows="2" required>
+                </div>  
+                <div class="sub">
+                <label for="demoDate">Date:</label>
+                <input type="date" id="demoDate" name="demoDate" required>
+                </div></div>
+                <!-- <label for="demoTime">Address:</label>
+                <input type="text" id="demoTime" name="demoTime" required> -->
+                <div class="form_container">
+                    <div class="sub">
+                <label for="comments">Address:</label>
+                <textarea id="address" name="address" rows="4"></textarea>
+                </div> 
+                <div class="sub">
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+                </div></div>
+                <div class="submit">
+                <button type="submit">Submit Request</button>
+                </div>
+            </form>
+      <!-- <p>Your account has been successfully created.</p> -->
+      <!-- <p>If you have any questions, please don't hesitate to contact us.</p> -->
+      <!-- <a href="#" class="button">Get Started</a> -->
+    </div>
+    <div class="footer">
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <p>Need help?</p>
+            <a href="mailto:reachoutsurfersway@gmail.com">reachoutsurfersway@gmail.com</a>
+            <p class="copy">&copy; Copyright <a href="SURFERSWAY.in">SURFERS<span>WAY</span></a>. All Rights Reserved</p>
+        </div>
+    </div>
+    <div class="logo2">
+      <a href="#">
+      <img src="data:image/png;base64,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" alt="" class="img2"></a>
+      <a href="#">
+      <img src="https://roestore.com/wp-content/uploads/2020/07/app-store-download-button-png.webp" alt="" class="img3"></a>
+    </div>
+</div>
+</body>
+
+</html>

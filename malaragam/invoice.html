@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Registration Confirmation Email</title>
+  <style>
+    /* @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap); */
+    body {
+      /* font-family: "pappies", sans-serif; */
+      background-color: #FFFFFF;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      width: 500px;
+      background-color: #F5F8FA;
+      padding: 10px;
+      border-radius: 10px;
+      /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); */
+    }
+    .header {
+      background-color: #17D831;
+      color: #fff;
+      padding: 20px;
+      border-radius: 10px 10px 0 0;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .content {
+      padding: 2px;
+      text-align: center;
+    }
+    .content p {
+      margin-bottom: 15px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+      margin: 5px;
+    }
+    .content a{
+        color:#333 ;
+    }
+    .button {
+      background-color: #17D831;
+      color: #fff;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background-color: #14B126;
+    }
+    .footer {
+      text-align: center;
+      padding: 2px;
+      font-size: 15px;
+      line-height: 1;
+      color: white;
+      background-color: #E36C89;
+      font-family: "roboto";
+    }
+    .email{
+        color: white;
+        text-decoration: none;
+        font-family: 'Overpass', sans-serif;
+        font-weight: 300;
+    }
+    .email:hover{
+        text-decoration: underline;
+    }
+    .social-icons {
+      text-align: center;
+      margin-top: 10px;
+    }
+    .social-icons a {
+      display: inline-block;
+      margin: 0 10px;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+    .social-icons a:hover {
+      transform: scale(1.2);
+    }
+    .social-icons i {
+      font-size: 24px;
+      color: white;
+    }
+    h2{
+        padding: 1px;
+        margin: 0%;
+    }
+    img{
+        width: 150px;
+        /* height: 90px; */
+        
+    }
+    .img{
+
+        display: grid;
+        place-items: center;
+        
+    }
+    .img2 img{
+        height: 150px;
+        width: 250px;
+        border-radius: 50%;
+    }
+    .p1{
+        letter-spacing: 0.5px;
+        text-align: justify;
+        /* word-spacing: 1px; */
+        /* padding: 1px; */
+    }
+    .copy{
+        margin-bottom: 5px;
+    }
+    
+    .copy a {
+      font-family: 'Overpass', sans-serif;
+      color: #FFB000;
+      text-decoration: none;
+    }
+
+    .copy a span {
+      font-family: 'Raleway', sans-serif;
+      color: black;
+    }
+
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Imprima&family=Lato&family=Mandali&family=Overpass&family=Poppins:wght@200;400&family=Raleway&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body style="font-family: lato;">
+  <div class="container">
+    <div class="img">
+        <img src="logo2.png" alt="">
+    </div>
+    <!-- <div class="img2 img">
+        <img src="https://as1.ftcdn.net/v2/jpg/04/43/08/12/1000_F_443081280_rV0uxTKvBfNff7cdITmCvC1CASZiZaXH.jpg" alt="">
+    </div> -->
+    <h3 align="center" style="color: #E36C89;">Thank you for your order!</h3>
+    <div style="display: grid;grid-template-columns: 1fr 1fr; border-bottom: dotted black;">
+        <ul style="list-style-type: none;line-height: 1.5rem;">
+            <li><strong>Seller</strong></li>
+            <li>seller@business.com</li>
+            <li>Addess</li>
+            <li>state,country</li>
+            <li>phone:123456789</li>
+        </ul>
+        <ul style="list-style-type: none;line-height: 1.5rem">
+            <li><strong>Client</strong></li>
+            <li>customer@.com</li>
+            <li>Addess</li>
+            <li>state,country</li>
+            <li>phone:123456789</li>
+        </ul>
+    </div>
+    <table style="border-collapse: collapse; width: 50%;margin: 16px 0px; line-height: 1.5rem;">
+        <tr>
+            <td style="padding-left: 40px; display: flex; align-items: center;">Number:</td>
+            <td ><span>123asd</span></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 40px;display: flex; align-items: center;">Date:</td>
+            <td ><span>june 12, 2013</span></td>
+        </tr>
+        <tr>
+            <td style=" padding-left:40px;display: flex; align-items: center;">Time:</td>
+            <td ><span>12:10pm</span></td>
+        </tr>
+    </table>
+    
+
+    <div class="content">
+        <!-- <h2>Your account has been deleted</h2>
+      <p class="p1">Dear user,</p>
+      <p class="p1">Your account will be deleted.You can't access this accout.</p> -->
+      <table style=" width: 100%; border-collapse: collapse">
+        <thead style=" text-align: left border-bottom: #ddd 1px solid;">
+          <tr style="background-color: #f2f2f2;">
+            <!-- <th style="padding: 15px;">Item</th> -->
+            <th  style="padding: 15px;text-align: start;"colspan="2">Description</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Your invoice items go here -->
+          <tr style="background-color: #fdfdfd;text-align: center; border-bottom: #ddd 1px solid;">
+            <td colspan="2" style="padding: 15px;text-align: start;">Description 1</td>
+            <td>2</td>
+            <td>&#8377;50.00</td>
+            <td>&#8377;100.00</td>
+          </tr>
+          <tr style="background-color: #fdfdfd;padding: 15px; text-align: center;border-bottom: #ddd 1px solid;">
+            <td colspan="2" style="padding: 15px;text-align: start;">Description 2</td>
+            <td>1</td>
+            <td>&#8377;75.00</td>
+            <td>&#8377;75.00</td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table> 
+      <div style="background: #ffffff;
+      padding: 20px;">
+      <table style="width: 100%;display:grid;place-content: flex-end;border-collapse:collapse;">
+        <tbody>
+          <tr>
+            <td style="padding:10px; text-align: right; border-bottom: #ddd 1px solid;">Subtotal</td>
+            <td style="padding:10px;text-align: right;border-bottom: #ddd 1px solid;">&#8377;175.00</td>
+          </tr>
+          <tr>
+            <td style="padding:10px; text-align: right; border-bottom: #ddd 1px solid;">Tax (10%)</td>
+            <td style="padding:10px; text-align: right; border-bottom: #ddd 1px solid;">&#8377;17.50</td>
+          </tr>
+          <tr id="grand-total">
+            <td style="padding:10px; text-align: right; border-bottom: #ddd 1px solid;"><strong>Grand Total</strong></td>
+            <td style="padding:10px; text-align: right; border-bottom: #ddd 1px solid;"><strong>&#8377;192.50</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+      <!-- <p class="p1">Thank you for joining our community! You can now <a href="#login-link">log in</a> using the credentials you provided during registration.</p> -->
+    </div>
+    <div class="footer">
+      <div class="social-icons">
+        <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <p>Need help?</p>
+        <a class="email" href="mailto:reachoutsurfersway@gmail.com">reachoutsurfersway@gmail.com</a>
+      <p class="copy">&copy; Copyright <a href="SURFERSWAY.in">SURFERS<span>WAY</span></a>. All Rights Reserved</p>
+    </div>
+  </div>
+</body>
+</html>
